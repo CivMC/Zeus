@@ -84,7 +84,7 @@ public class ZeusPluginManager {
 	/**
 	 * Starts a plugin
 	 *
-	 * @param pluginName Plugin to start
+	 * @param plugin Plugin to start
 	 */
 	public void startPlugin(ZeusPlugin plugin) {
 		logger.info("Enabling plugin " + plugin.getName() + ":" + plugin.getVersion());
