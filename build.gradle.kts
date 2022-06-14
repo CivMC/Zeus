@@ -2,6 +2,7 @@ import net.civmc.civgradle.CivGradleExtension
 
 plugins {
     `java-library`
+    `application`
     id("net.civmc.civgradle") version "2.+"
     id("com.github.johnrengelman.shadow") version "7.1.2"
 }
@@ -10,6 +11,10 @@ repositories {
     mavenCentral()
 
     maven("https://jitpack.io")
+}
+
+application {
+    mainClass.set("com.github.maxopoly.zeus.ZeusMain")
 }
 
 configure<CivGradleExtension> {
