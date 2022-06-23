@@ -64,7 +64,6 @@ public class ZeusPluginDatabase {
 	 * This is <i>not</i> checked for completeness or accuracy.
 	 * 
 	 * @param id           The migration ID -- 0, 1, 2 etc, must be unique.
-	 * @param ignoreErrors Indicates if errors in this migration should be ignored.
 	 * @param callback     An optional callback that'll run after the migration has
 	 *                     completed.
 	 * @param queries      The queries to run, in sequence.

@@ -29,8 +29,6 @@ public abstract class ConnectedServer {
 
 	/**
 	 * Setter for whether an active rabbit connection exists
-	 * 
-	 * @return State of rabbit connection
 	 */
 	public void setActiveConnection(boolean connected) {
 		this.activeConnection = connected;
